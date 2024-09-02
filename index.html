@@ -13,29 +13,7 @@
     </main>
     <script>
            
-               let joao={
-                   nome: "João",
-                   qtd: 2,
-                   
-               } ;
-               let maria ={
-                   nome: "Maria",
-                   qtd: 1,
-                   comerMaçã:function(){
-                    maria.qtd--;
-                   }
-               } ;
                
-               deJoaoParaMaria();
-               maria.comerMaçã();
-               
-               console.log(`${maria.nome} tem ${maria.qtd} maçãs`);
-               console.log(`${joao.nome} tem ${joao.qtd} maçãs`);   
-
-               function deJoaoParaMaria(){
-                maria.qtd = maria.qtd + joao.qtd;
-                joao.qtd=0;
-               }
            
     </script>
 </body>
